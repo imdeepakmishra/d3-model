@@ -1,0 +1,186 @@
+
+
+.svg {
+    border: 1px dashed #CCCCCC;
+    width: 100%;
+    background-color: rgba(0,0,0,.04);
+}
+
+circle {
+    cursor: pointer;
+    stroke-width: 1.5px;
+}
+
+text {
+    font: 10px arial;
+    pointer-events: none;
+    /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;*/
+}
+
+#path-group {
+    fill: #403E3E;
+    stroke: #403E3E;
+    stroke-width: 1.5px;
+}
+
+circle.Condition {
+    fill: #F1948A;
+    stroke: #EC7063;
+}
+
+circle.Condition:hover {
+    fill: #FADBD8;
+    stroke: #F1948A;
+}
+
+circle.Job {
+    fill: #82E0AA;
+    stroke: #58D68D;
+}
+
+circle.Job:hover {
+    fill: #ABEBC6;
+    stroke: #82E0AA;
+}
+
+circle.Cyclic.Job {
+    fill: #C39BD3;
+    stroke: #AF7AC5;
+}
+
+circle.Cyclic.Job:hover {
+    fill: #D7BDE2;
+    stroke: #C39BD3;
+}
+
+circle.Folder {
+    fill: #85C1E9;
+    stroke: #5DADE2;
+}
+
+circle.Folder:hover {
+    fill: #AED6F1;
+    stroke: #85C1E9;
+}
+
+path.OUT_SUB {
+    fill: #C0392B;
+    stroke: #C0392B;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5, 5;
+}
+
+path.IN_OR {
+    fill: #3498DB;
+    stroke: #3498DB;
+    stroke-width: 1.5px;
+    stroke-dasharray: 5, 5;
+}
+
+/* path {
+    fill: #1B2631;
+    stroke: #1B2631;
+} */
+
+#control-icon-group {
+    cursor: pointer;
+}
+
+/* g.lockIcon path {
+    stroke: #1B2631;
+    stroke-width: 1.5px;
+} */
+
+g path.overlay {
+    fill: white;
+    /* stroke: #1B2631; */
+    stroke-width: 1px;
+    stroke-dasharray: 2, 2;
+}
+
+#path-label-group {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+body {
+    /* padding-top: 15px; */
+    margin: 20px;
+}
+
+#btnSend {
+    margin-left: 10px;
+}
+
+#propertiesBox {
+    overflow: auto;
+    height: 120px;
+    padding: 15px;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 3px;
+    border: 1px solid #CCCCCC;
+}
+
+svg {
+    border: 1px dashed #CCCCCC;
+}
+
+circle {
+    cursor: pointer;
+    stroke-width: 1.5px;
+}
+
+text {
+    font: 10px arial;
+    pointer-events: none;
+    color: #403E3E;
+    /*text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;*/
+}
+
+path {
+    fill: #403E3E;
+    stroke: #403E3E;
+    stroke-width: 1.5px;
+}
+
+#StepsText {
+    position: absolute;
+    right: 10%;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+button {
+    margin-right: 12px;
+}
+
+#graphContainerTop {
+    width: 87% !important
+}
+
+#stepsCall {
+    position: absolute;
+    right: 3%;
+    width: 50%;
+    padding: 10px;
+}
+
+#graphDock {
+    width: 100%;
+    margin-top: 5px;
+}
